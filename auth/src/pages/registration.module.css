@@ -1,0 +1,210 @@
+/* ...existing code... */
+
+html {
+  background: rgba(1, 12, 36, 1);
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logInner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 375px;
+
+  width: 100%;
+}
+
+.logTop {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(45, 117, 240, 1);
+  padding: 6px 16px;
+  text-align: center;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(45, 117, 240, 0.12);
+}
+
+.logForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  padding: 32px 24px;
+  border-radius: 24px;
+  width: 100%;
+}
+
+.logTxt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.logTxt h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.logTxt h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  max-width: 210px;
+  line-height: 1.4;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.566);
+  font-weight: 400;
+  font-size: 12px;
+  position: relative;
+  z-index: 10;
+  bottom: -5px;
+  left: 10px;
+}
+
+.inputWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 10px;
+background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+   color: #fff;
+  outline: none;
+  font-size: 16px;
+}
+
+.eye {
+  position: absolute;
+  right: 8px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+
+.primary {
+  margin-top: 14px;
+  background: rgba(45, 117, 240, 1);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.outline {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.or {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.help {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  margin-top: 14px;
+}
+
+.link {
+  color: #5ea0ff;
+  text-decoration: none;
+}
+
+.error {
+  color: #ff8b8b;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+@media(max-width:767px) {
+  .logTop {
+    font-size: 16px;
+  }
+
+  .logTxt h2 {
+    font-size: 32px;
+  }
+
+  .logTxt h3 {
+    font-size: 14px;
+  }
+
+  .logInner{
+    margin-top: 30px;
+  }
+
+}
