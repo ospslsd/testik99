@@ -5,7 +5,7 @@ import App from './App'
 import '../src/reset.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<BrowserRouter basename="/auth">
+<BrowserRouter basename="/testik99/auth">
   <App />
 </BrowserRouter>
 )
